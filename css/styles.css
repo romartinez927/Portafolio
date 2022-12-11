@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+/* Menú */
+nav ul li {
+    list-style: none;
+}
+
+.offcanvas {
+    max-width: 70% !important
+}
+
+/* Skills icons */
+.skills-icons {
+    font-size: 4em;
+    width: 2em;
+}
+
+
+/* Media queries */
+@media (max-width: 768px) {
+    .skills-icons {
+      width: 1.5em;
+    }
+  }
