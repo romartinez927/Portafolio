@@ -4,6 +4,19 @@
     font-family: 'Manrope', sans-serif;
 }
 
+/* Estilos generales */
+.fw-700 {
+    font-weight: 700;
+}
+
+main {
+    margin-top: 1.8em;
+}
+
+.bg-gris {
+    background-color: hsla(220, 20%, 97%, 1);
+}
+
 /* Menú */
 nav ul li {
     list-style: none;
@@ -13,12 +26,17 @@ nav ul li {
     max-width: 70% !important
 }
 
-/* Skills icons */
+/* About */
 .skills-icons {
     font-size: 4em;
     width: 2em;
 }
 
+/* Services */
+.services-icons {
+    font-size: 4em;
+    padding-bottom: 0.3em;
+}
 
 /* Media queries */
 @media (max-width: 768px) {
