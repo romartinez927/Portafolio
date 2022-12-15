@@ -22,6 +22,15 @@ main {
     background-color: #eaf4f4;
 }
 
+.titles {
+    color: #212529
+}
+
+.text {
+    color: #343a40
+}
+
+
 /* Brands colors */
 .fa-html5 {
     color: #F16529
@@ -76,6 +85,12 @@ nav ul li {
 /* Contact */
 .contact-icons {
     font-size: 3em;
+}
+
+/* Footer */ 
+.text-footer {
+    color: #6c757d;
+    font-size: 1em;
 }
 
 /* Media queries */
