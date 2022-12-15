@@ -14,40 +14,40 @@ main {
     overflow: hidden;
 }
 
-.bg-blanco {
-    background-color: #f1faee
+.bg-section-home {
+    background-color: #cce3de
 }
 
-.bg-celeste {
-    background-color: #caf0f8;
+.bg-sections {
+    background-color: #eaf4f4;
 }
 
 /* Brands colors */
-.html5 {
+.fa-html5 {
     color: #F16529
 }
 
-.square-js {
+.fa-square-js {
     color: #F0DB4F
 }
 
-.css3-alt {
+.fa-css3-alt {
     color: #264de4
 }
 
-.git-alt {
+.fa-git-alt {
     color: #F1502F
 }
 
-.bootstrap {
+.fa-bootstrap {
     color: #553C7B
 }
 
-.sass {
+.fa-sass {
     color: #CD6799
 }
 
-.linkedin-in {
+.fa-linkedin-in {
     color: #0A66C2
 }
 
@@ -70,6 +70,12 @@ nav ul li {
 .services-icons {
     font-size: 4em;
     padding-bottom: 0.3em;
+}
+
+
+/* Contact */
+.contact-icons {
+    font-size: 3em;
 }
 
 /* Media queries */
