@@ -18,11 +18,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  />
+  
     <title>Rosario Martínez - Portafolio</title>
 </head>
 <body>
-    <nav class="container-fluid bg-light fixed-top">
+    <nav class="container-fluid fixed-top bg-light">
         <div class="row">
             <div class="d-none col-2 d-md-flex justify-content-center p-2">
                 <h3 class="fw-700">Ro <i class="fa-regular fa-heart fs-5"></i></h3>
@@ -92,11 +92,11 @@
         </div>
     </nav>
     <main class="container-fluid">
-        <section class="row align-items-center justify-content-center bg-secondary py-5">
+        <section class="row align-items-center justify-content-center bg-celeste py-5">
             <div data-aos="zoom-in" data-aos-duration="600" class="col-md-6 col-xs-12 text-center py-2">
-                <img src="./img/6c9729b0b0e0fb9836e75c5d885601b1.jpg" style="max-width: 20em; border-radius: 50%">
+                <img class="img-profile" src="./img/6c9729b0b0e0fb9836e75c5d885601b1.jpg" style="max-width: 20em; border-radius: 50%; box-shadow: 0 0 15px #999">
             </div>
-            <div class="col-md-6 col-xs-12 text-center py-3">
+            <div class="col-md-6 col-xs-12 text-center py-3 ">
                 <h2 data-aos="zoom-in" data-aos-duration="800" class="fw-700">Hi!</h2>
                 <h1 data-aos="zoom-in" data-aos-duration="900" class="fw-700 ">I'm Rosario Martínez</h1>
                 <h2 data-aos="zoom-in" data-aos-duration="1000" class="fw-700">FrontEnd Developer</h2>
@@ -139,7 +139,7 @@
                 </div>
             </div>
         </section>
-        <section id="services" class="row bg-secondary py-5 px-2">
+        <section id="services" class="row bg-celeste py-5 px-2">
             <h2 data-aos="fade-down" data-aos-duration="1500" class="pb-3 fw-700">Services:</h2>
             <div data-aos="fade-up" data-aos-duration="1500" class="row">
                 <div class="col-md-3 col-xs-12 py-4 text-center">
@@ -164,13 +164,34 @@
                 </div>
             </div>
         </section>
-        <section id="portofolio" class="row bg-light">
-            <div>
+        <section id="portofolio" class="row bg-light justify-content-center align-items-center py-5 px-2">
+            <div class="col-12 pb-3">
                 <h3>Portofolio</h3>
                 <p>Here you can see the projects I have worked on.</p>
             </div>
-            <div>
-
+            <div class="col-xs-10 col-md-6 col-xl-4">
+                <div class="card">
+                    <img src="./img/akira.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">E-commerce con HTML, CSS y JS</h5>
+                        <div class="d-flex justify-content-center">
+                            <a href="https://romartinez927.github.io/ProyectoFinal-Martinez/" target="_blank" class="btn btn-light">Página Web</a>
+                            <a href="https://github.com/romartinez927/ProyectoFinal-Martinez.git" target="_blank" class="btn btn-light">Repositorio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-10 col-md-6 col-xl-4">
+                <div class="card">
+                    <img src="./img/reposteria-candela.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Página Web con HTML, CSS, Bootstrap</h5>
+                        <div class="d-flex justify-content-center">
+                            <a href="https://romartinez927.github.io/RepCandela--Martinez/" target="_blank" class="btn btn-light">Página Web</a>
+                            <a href="https://github.com/romartinez927/RepCandela--Martinez.git" target="_blank" class="btn btn-light">Repositorio</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

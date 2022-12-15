@@ -10,11 +10,45 @@
 }
 
 main {
-    margin-top: 1.8em;
+    margin-top: 3em;
+    overflow: hidden;
 }
 
-.bg-gris {
-    background-color: hsla(220, 20%, 97%, 1);
+.bg-blanco {
+    background-color: #f1faee
+}
+
+.bg-celeste {
+    background-color: #caf0f8;
+}
+
+/* Brands colors */
+.fa-html5 {
+    color: #F16529
+}
+
+.fa-square-js {
+    color: #F0DB4F
+}
+
+.fa-css3-alt {
+    color: #264de4
+}
+
+.fa-git-alt {
+    color: #F1502F
+}
+
+.fa-bootstrap {
+    color: #553C7B
+}
+
+.fa-sass {
+    color: #CD6799
+}
+
+.fa-linkedin-in {
+    color: #0A66C2
 }
 
 /* Menú */
@@ -42,5 +76,9 @@ nav ul li {
 @media (max-width: 768px) {
     .skills-icons {
       width: 1.5em;
+    }
+
+    .img-profile {
+        width: 15em;
     }
   }
