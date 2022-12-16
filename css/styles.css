@@ -10,16 +10,26 @@
 }
 
 main {
-    margin-top: 3em;
     overflow: hidden;
 }
 
 .bg-section-home {
-    background-color: #cce3de
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./../img/rich-tervet-q2GNdFmhxx4-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-rgba {
+    background-color: rgba(0, 0, 0, 0.4)
 }
 
 .bg-sections {
-    background-color: #eaf4f4;
+    background-color: #f0efeb;
+}
+
+.bg-nav {
+    background-color: rgba(0, 0, 0, 0.8)
 }
 
 .titles {
@@ -29,6 +39,8 @@ main {
 .text {
     color: #343a40
 }
+
+
 
 
 /* Brands colors */
@@ -63,6 +75,18 @@ main {
 /* Menú */
 nav ul li {
     list-style: none;
+}
+
+.nav-item {
+    transition: all ease 0.3s
+}
+
+.nav-item:hover {
+    color:#ffc8dd
+}
+
+.bg-menu {
+    background-color: rgba(240, 239, 235, 0.6);
 }
 
 .offcanvas {
