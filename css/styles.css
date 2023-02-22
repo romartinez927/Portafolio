@@ -118,12 +118,22 @@ nav div ul li .nav-item {
 }
 
 /* Portafolio */
-.card {
-    max-width: 27em;
+
+.tarjetita {
+    background-color: #fff;
+    padding: 20px 10px;
+    box-shadow: 0 0 5px rgba(75, 75, 75, .07);
+    margin-bottom: 1em;
 }
 
-.card:hover {
-    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+.tarjetita-body {
+    padding: 1em;
+}
+
+.tarjetita-img {
+    width: 30em;
+    object-fit: contain;
+    height: auto;
 }
 
 /* Contact */
@@ -138,7 +148,7 @@ nav div ul li .nav-item {
 }
 
 /* Media queries */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .skills-icons {
       width: 1.5em;
     }
@@ -149,5 +159,15 @@ nav div ul li .nav-item {
 
     .bg-section-home {
         height:auto
+    }
+    
+    .tarjetita-img {
+        width: 25em;
+    }
+  }
+
+  @media (max-width: 537px) {
+    .tarjetita-img {
+        width: 15em;
     }
   }
