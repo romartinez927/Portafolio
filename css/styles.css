@@ -127,33 +127,17 @@ nav div ul li .nav-item {
 
 /* Portafolio */
 
-.tarjetita {
-    background-color: #fff;
-    padding: 20px 10px;
-    box-shadow: 0 0 5px rgba(75, 75, 75, .07);
-    margin-bottom: 1em;
-}
-
-.tarjetita-body {
-    padding: 1em;
-}
-
-.tarjetita-img {
-    width: 30em;
-    object-fit: contain;
-    height: auto;
-}
-
 .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.target {
+.card-portafolio {
     margin: 20px;
     padding: 20px;
     width: 500px;
+    min-width: 350px;
     min-height: 300px;
     display: grid;
     grid-template-rows: 20px 50px 1fr 50px;
@@ -162,44 +146,47 @@ nav div ul li .nav-item {
     transition: all 0.2s;
 }
 
-.target:hover {
+.card-portafolio:hover {
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
     transform: scale(1.01);
 }
 
-.bg-card1 {
+.card1 {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./../img/e5f2af0748c60c71401de63162a6defe.jpg);
+    background-position: center;
 }
 
-.bg-card2 {
+.card2 {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./../img/345753943.jpg);
+    background-position: center;
 }
 
-.bg-card3 {
+.card3 {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./../img/todo.png);
+    background-position: center;
 }
 
-.bg-card4 {
+.card4 {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./../img/aesthetic-spring-14.jpg);
+    background-position: center;
 }
 
 .bg-card {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
 }
 
-.prueba {
+.card-contenido {
     visibility: hidden;
     height: 100%;
 }
 
-.bg-card:hover .prueba {
+.bg-card:hover .card-contenido {
     visibility: visible;
 }
 
-.main-container {
-    padding: 30px;
+.cards-container {
+    padding: 10px;
 }
 
 /* Contact */
@@ -228,8 +215,8 @@ nav div ul li .nav-item {
     }
 
     .bg-section-home {
-        height: 100vh;
-        background-position: left;
+        height: 40vh;
+        background-position: 30% 0%;
     }
 
     #about {
@@ -244,14 +231,14 @@ nav div ul li .nav-item {
         height: auto
     }
 
-    .tarjetita-img {
-        width: 25em;
-    }
 }
 
 @media (max-width: 537px) {
-    .tarjetita-img {
-        width: 15em;
+    .card1 {
+        background-position: left;
+    }
+    .card2 {
+        background-position: 40% 0%;
     }
 }
 
