@@ -9,7 +9,7 @@ window.addEventListener("scroll", function() {
 
     let posicionMain = main.getBoundingClientRect().top
 
-    if(posicionMain <= -580) {
+    if(posicionMain <= -500) {
         nav.classList.add("bg-nav")
         mobileToggler.classList.remove("text-black")
         mobileToggler.classList.add("text-light")

@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Manrope', sans-serif;
@@ -34,7 +34,7 @@ main {
 }
 
 .text-pink {
-    color:#ffc8dd;
+    color: #ffc8dd;
 }
 
 .titles {
@@ -84,12 +84,12 @@ nav div ul li .nav-item {
 }
 
 .nav-item {
-    color:#fff;
+    color: #fff;
     text-decoration: none;
 }
 
 .nav-item:hover {
-    color:#ffc8dd
+    color: #ffc8dd
 }
 
 .bg-menu {
@@ -106,12 +106,20 @@ nav div ul li .nav-item {
 
 
 /* About */
+#about {
+    height: 100vh;
+}
+
 .skills-icons {
     font-size: 4em;
     width: 2em;
 }
 
 /* Services */
+#services {
+    height: 100vh;
+}
+
 .services-icons {
     font-size: 4em;
     padding-bottom: 0.3em;
@@ -136,12 +144,74 @@ nav div ul li .nav-item {
     height: auto;
 }
 
-/* Contact */
-.contact-icons {
-    font-size: 3em;
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-/* Footer */ 
+.target {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 300px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+}
+
+.target:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+}
+
+.bg-card1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./../img/e5f2af0748c60c71401de63162a6defe.jpg);
+}
+
+.bg-card2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./../img/345753943.jpg);
+}
+
+.bg-card3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./../img/todo.png);
+}
+
+.bg-card4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./../img/aesthetic-spring-14.jpg);
+}
+
+.bg-card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.prueba {
+    visibility: hidden;
+    height: 100%;
+}
+
+.bg-card:hover .prueba {
+    visibility: visible;
+}
+
+.main-container {
+    padding: 30px;
+}
+
+/* Contact */
+#contact {
+    height: 70vh;
+}
+
+.contact-icons {
+    font-size: 5em;
+}
+
+/* Footer */
 .text-footer {
     color: #6c757d;
     font-size: 1em;
@@ -150,7 +220,7 @@ nav div ul li .nav-item {
 /* Media queries */
 @media (max-width: 900px) {
     .skills-icons {
-      width: 1.5em;
+        width: 1.5em;
     }
 
     .img-profile {
@@ -158,16 +228,35 @@ nav div ul li .nav-item {
     }
 
     .bg-section-home {
-        height:auto
+        height: 100vh;
+        background-position: left;
     }
-    
+
+    #about {
+        height: auto
+    }
+
+    #services {
+        height: auto
+    }
+
+    #contact {
+        height: auto
+    }
+
     .tarjetita-img {
         width: 25em;
     }
-  }
+}
 
-  @media (max-width: 537px) {
+@media (max-width: 537px) {
     .tarjetita-img {
         width: 15em;
     }
-  }
+}
+
+@media (max-width: 1600px) {
+    .cards {
+        justify-content: center;
+    }
+}
